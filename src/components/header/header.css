@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+.header-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 15px;
+    
+}
+.yt_logo{
+    width:120px;
+    height:30px;
+padding:0 20px;
+}
+.left-header{
+    float:left;
+}
+.right-header{
+    float:right;
+}
+
+.hamburger{
+    border:none;
+    height:20px;
+    background-color: transparent;
+}
+
+.header-center{
+    margin:auto;
+    display:flex;
+}
+
+.search-btn{
+
+    align-items: center;
+   margin:auto;
+    padding: 0rem 1.25rem;
+ height:38.3px;
+background:transparent;
+ margin-top:0;
+ 
+ border-top-right-radius:20px;
+border-bottom-right-radius:20px; 
+border-color:#ddd; 
+}
+
+.search-btn:hover{
+    background-color: #ddd;
+   
+}
+
+.search input {
+   
+    width: 600px;
+    padding:10px;
+    border-style:solid;
+    border-color: #ddd;
+    height: 100%;
+    border-radius: 20px 0 0 20px
+
+  }
+  .search input:focus{
+    border:2px solid rgb(0, 64, 124);
+  }
+  
+  input:focus {
+    outline: none;
+    border: 1px solid #ddd;
+  }
+
+ .mic {
+    border-radius:20rem;
+    width:40px;
+    border-color: transparent;
+    background-color: transparent;
+
+ }
+ .video-btn, .bell-btn{
+    border-radius:50px;
+    width:40px;
+    height:40px;
+    border-color: transparent;
+    background-color: transparent;
+
+ }
+ .mic:hover, .video-btn:hover,.bell-btn:hover{
+    background-color: #ddd;
+ }
+
+ .profile-btn{
+    width:2rem;
+    background-color: transparent;
+    border-radius: 40px;
+ }
+
+  form{
+
+display:flex;
+padding:0.1rem;
+margin: 0 1rem;
+border-radius: 30px;
+border:1.2px none;
+
+  }
+ 
+
+  .react-icons {
+    color: rgb(100, 100, 100);
+    padding: 70px 7px;
+    cursor: pointer;
+margin-top:200px;
+  
+  }
+
+  @media screen and (max-width:1100px) {
+    .input-box {
+      width:50vw;
+     
+    }
+
+    form{
+        flex:1;
+    }
+ 
+  }
+
+  @media screen and (max-width:670px) {
+    .input-box {
+      width:30vw;
+     
+    }
+
+    form{
+        flex:1;
+    }
+ 
+  }
+
+  @media screen and (max-width: 50px){
+   .input-box{
+    width:0vw;
+   }
+   form{
+    flex:1;
+}
+  
+.search-btn{
+    float:right;
+    width:2rem;
+}
+  }
+
+  
